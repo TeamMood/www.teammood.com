@@ -16,6 +16,9 @@ favicon: 'img/favicon.png'
 # Build settings
 markdown            : kramdown
 
+sass:
+  sass_dir: _sass
+
 # google_analytics
 google_analytics: ''
 
@@ -51,9 +54,6 @@ whitelist:
 ####################################
 ######      Global end      ######
 ####################################
-
-
-
 
 
 ####################################
@@ -445,7 +445,3 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-#google map api key
-
-map: 'AIzaSyA7nx22ZmINYk9TGiXDEXGVxghC43Ox6qA'
