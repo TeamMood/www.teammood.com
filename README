@@ -1,0 +1,12 @@
+
+## On first checkout
+
+$> bundle install
+
+## Preview website
+
+$> jekyll serve
+
+or
+
+$> bundle exec jekyll serve
