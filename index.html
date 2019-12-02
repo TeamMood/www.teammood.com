@@ -1,30 +1,27 @@
 ---
 layout: default
+lang: en
 ---
+<script type="text/javascript">
+    var language = navigator.language || navigator.systemLanguage;
 
-{% include hero.html %}
+    var params = window.location.search;
+    var host = window.location.host;
 
-{% include section/feature.html %}
+    var base = "http://" + host;
+    if (window.location.protocol === "https:") {
+        base = "https://" + host;
+    }
 
-{% include section/marketing.html %}
+    //redirecting
+    if (language.toLowerCase().indexOf('fr') !== -1) {
+        var dest_fr = base + '/fr/' + params;
+        window.location.replace ? window.location.replace(dest_fr) : window.location = dest_fr;
 
-{% include section/stat.html %}
+    } else {
+        var dest_en = base + '/en/' + params;
 
-{% include section/cta.html %}
+        window.location.replace ? window.location.replace(dest_en) : window.location = dest_en;
+    }
 
-{% include section/social.html %}
-
-{% include section/price.html %}
-
-{% include section/unique-feature.html %}
-
-{% include section/brands.html %}
-
-
-{% include section/client-review.html %}
-
-{% include section/blog.html %}
-
-{% include section/contact.html %}
-
-
+</script>
