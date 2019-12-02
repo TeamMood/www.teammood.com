@@ -47,7 +47,7 @@ disqus:
 # product_slider                    sass_fixed_image
 # product_video                     sass_slider       
 
-hero: 'product_fixed_image'
+hero: 'sass_fixed_image'
 
 # sass [ only one image ]
 hero_sass_name: 'We Made our <br> Software 100% Errorless'
