@@ -234,25 +234,17 @@ important_points:
 #####################################
  
 bands_slider:
-  - image: 'img/brands/b1.png'
+  - image: 'img/brands/woodside.png'
     link: '#'
-  - image: 'img/brands/b2.png'
+  - image: 'img/brands/anz.png'
     link: '#'
-  - image: 'img/brands/b3.png'
+  - image: 'img/brands/ipsen.png'
     link: '#'
-  - image: 'img/brands/b4.png'
+  - image: 'img/brands/axelspringer.png'
     link: '#'
-  - image: 'img/brands/b5.png'
+  - image: 'img/brands/decathlon.png'
     link: '#'
-  - image: 'img/brands/b6.png'
-    link: '#'
-  - image: 'img/brands/b7.png'
-    link: '#'
-  - image: 'img/brands/b8.png'
-    link: '#'
-  - image: 'img/brands/b9.png'
-    link: '#'
-  - image: 'img/brands/b10.png'
+  - image: 'img/brands/ebay.png'
     link: '#'
 
 
