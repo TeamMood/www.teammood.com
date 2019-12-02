@@ -2622,9 +2622,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .hero-img {
   position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 50%; }
+  right: 50px;
+  bottom: 50px;
+  width: 40%; }
   @media (max-width: 992px) {
     .hero-img {
       display: none; } }
