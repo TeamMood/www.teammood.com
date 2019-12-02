@@ -16,119 +16,11 @@ favicon: 'img/favicon.png'
 # Build settings
 markdown            : kramdown
 
-# all plugin
-plugins:
-  - jekyll-feed
-
 # google_analytics
 google_analytics: ''
 
 
-####################################
-######     Hero start     ######
-####################################
-# product_background_image          sass
-# product_fixed_image               saas_video             
-# product                           sass_background_image
-# product_slider                    sass_fixed_image
-# product_video                     sass_slider       
-
 hero: 'sass_fixed_image'
-
-# sass [ only one image ]
-hero_sass_name: 'We Made our <br> Software 100% Errorless'
-hero_sass_text: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools to help prevent getting infected.'
-hero_sass_image: 'img/hero/hero-img.png'
-hero_sass_btn_one_link: '#'
-hero_sass_btn_one_text:  'Start a project'
-hero_sass_btn_two_link: '#'
-hero_sass_btn_two_text: ' View Pricing '
-
-# saas_video [ video type mp4 ]
-hero_saas_video_name: 'We Made our <br> Software 100% Errorless' 
-hero_saas_video_text: 'The first is a non technical method which requires the use of adware removal software.  Download free adware and spyware removal software and use advanced tools to help prevent  getting infected.'
-hero_saas_video_image: 'img/mockup.png'
-hero_saas_video_video: 'vdo/sass-bv.mp4'
-hero_saas_video_btn_one_link: '#'
-hero_saas_video_btn_one_text:  'Browse free demo'
-
-# sass_background_image
-hero_sass_background_image_name: 'We Made our <br> Software 100% Errorless' 
-hero_sass_background_image_text: 'The first is a non technical method which requires the use of adware removal software.  Download free adware and spyware removal software and use advanced tools to help prevent  getting infected.'
-hero_sass_background_image_image: 'img/mockup.png'
-hero_sass_background_image_btn_one_link: '#'
-hero_sass_background_image_btn_one_text:  'Browse free demo'
-
-# sass_fixed_image
-hero_saas_fixed_image_name: 'We Made our <br> Software 100% Errorless' 
-hero_saas_fixed_image_text: 'The first is a non technical method which requires the use of adware removal software.  Download free adware and spyware removal software and use advanced tools to help prevent  getting infected.'
-hero_saas_fixed_image_image: 'img/mockup.png'
-hero_saas_fixed_image_btn_one_link: '#'
-hero_saas_fixed_image_btn_one_text:  'Browse free demo'
-
-# sass_slider
-hero_sass_slider_name: 'We Made our <br> Software 100% Errorless' 
-hero_sass_slider_image: 'img/mockup.png'
-hero_sass_slider_btn_one_link: '#'
-hero_sass_slider_btn_one_text:  'Browse free demo'
-hero_sass_slider: 
-  - image: 'img/carusel/s1.jpg'
-  - image: 'img/carusel/s2.jpg'
-  - image: 'img/carusel/s3.jpg'
-
-# product [ only one image ]
-hero_product_name: 'The most Creative <br> Theme ever for Business'
-hero_product_text: 'The first is a non technical method which requires the use of adware removal software. Download  free adware and spyware removal software and use advanced tools to help prevent getting infected.'
-hero_product_image: 'img/hero/hero-img2.png'
-hero_product_btn_one_link: '#'
-hero_product_btn_one_text:  'Browse free demo'
-
-# product_video [ video type mp4 ]
-hero_product_video_name: 'The most Creative <br> Theame ever in Business' 
-hero_product_video_text: 'The first is a non technical method which requires the use of adware removal software. ownload free adware and spyware removal'
-hero_product_video_image: 'img/iPhoneX.png'
-hero_product_video_video: 'vdo/app-bv.mp4'
-hero_product_video_btn_one_link: '#'
-hero_product_video_btn_one_text:  'Browse free demo'
-
-# product_background_image
-hero_product_background_image_name: 'The most Creative <br> Theame ever in Business' 
-hero_product_background_image_text: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools to help prevent getting infected.'
-hero_product_background_image_image: 'img/iPhoneX.png'
-hero_product_background_image_btn_one_link: '#'
-hero_product_background_image_btn_one_text:  'Browse free demo'
-
-# product_fixed_image
-hero_product_fixed_image_name: 'The most Creative <br> Theame ever in Business' 
-hero_product_fixed_image_text: 'The first is a non technical method which requires the use of adware removal software.  Download free adware and spyware removal software and use advanced tools to help prevent  getting infected.'
-hero_product_fixed_image_image: 'img/iPhoneX.png'
-hero_product_fixed_image_btn_one_link: '#'
-hero_product_fixed_image_btn_one_text:  'Browse free demo'
-
-# product_slider
-hero_product_slider_name: 'The most Creative <br> Theame ever in Business' 
-hero_product_slider_text: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal software and use advanced tools to help prevent getting infected.'
-hero_product_slider_image: 'img/iPhoneX.png'
-hero_product_slider_btn_one_link: '#'
-hero_product_slider_btn_one_text:  'Browse free demo'
-hero_product_slider: 
-  - image: 'img/carusel/a1.jpg'
-  - image: 'img/carusel/a2.jpg'
-  - image: 'img/carusel/a3.jpg'
-
-# hero-section-blog
-
-hero_blog_slider:
-  - image: 'img/hero/hero-blog.jpg'
-    author: 'Sir Alex James'
-    title: 'The Idea Of God Is <br /> Not Henceforth Relevant'
-    category: 'Technical'
-
-  - image: 'img/hero/hero-blog.jpg'
-    author: 'Sir Alex James'
-    title: 'The Idea Of God Is <br /> Not Henceforth Relevant'
-    category: 'Art &amp; Fantacy'
-
 
 
 # Exclude from processing.
@@ -142,6 +34,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - .idea
 
 # Plugins (previously gems:)
 plugins:
