@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://127.0.0.1:4000//en/about.html</loc>
+<loc>2020.teammood.com/en/about.html</loc>
 </url>
 <url>
-<loc>http://127.0.0.1:4000//en/features.html</loc>
+<loc>2020.teammood.com/en/features.html</loc>
 </url>
 <url>
-<loc>http://127.0.0.1:4000//fr/</loc>
+<loc>2020.teammood.com/fr/</loc>
 </url>
 <url>
-<loc>http://127.0.0.1:4000//en/</loc>
+<loc>2020.teammood.com/en/</loc>
 </url>
 <url>
-<loc>http://127.0.0.1:4000//</loc>
+<loc>2020.teammood.com/</loc>
 </url>
 <url>
-<loc>http://127.0.0.1:4000//en/pricing.html</loc>
+<loc>2020.teammood.com/en/pricing.html</loc>
 </url>
 </urlset>
